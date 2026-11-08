@@ -1,0 +1,13 @@
+{
+  "id": "catppuccin-exact",
+  "name": "Catppuccin Exact",
+  "description": "Catppuccin Mocha and Latte for Paseo, with darker #181825 sidebars and #1e1e2e content surfaces.",
+  "icon": "assets/icon.png",
+  "media": [
+    "assets/screenshot-dark.png",
+    "assets/screenshot-light.png"
+  ],
+  "requirements": {
+    "paseo": ">=0.15.3"
+  }
+}

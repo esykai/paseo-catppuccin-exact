@@ -1,0 +1,33 @@
+{
+  "name": "paseo-catppuccin-exact",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catppuccin Mocha and Latte app themes for Paseo with exact surfaces.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esykai/paseo-catppuccin-exact.git"
+  },
+  "homepage": "https://github.com/esykai/paseo-catppuccin-exact#readme",
+  "bugs": {
+    "url": "https://github.com/esykai/paseo-catppuccin-exact/issues"
+  },
+  "author": "Andrey Abramov (https://github.com/esykai)",
+  "files": [
+    "paseo-plugin.json",
+    "OVERVIEW.md",
+    "OVERVIEW.*.md",
+    "index.client.tsx",
+    "assets/"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@getpaseo/plugin": "0.15.3",
+    "@types/react": "~19.2.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.4.3"
+  }
+}
