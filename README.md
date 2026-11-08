@@ -10,6 +10,7 @@
   <a href="#install"><img src="https://img.shields.io/badge/Paseo-%E2%89%A50.15.3-1e1e2e?style=flat-square&labelColor=313244" alt="Paseo 0.15.3 or newer"></a>
   <a href="https://github.com/catppuccin/catppuccin"><img src="https://img.shields.io/badge/Catppuccin-Mocha%20%2F%20Latte-cba6f7?style=flat-square&labelColor=313244" alt="Catppuccin Mocha and Latte"></a>
   <img src="https://img.shields.io/badge/Daemon-code-none-a6e3a1?style=flat-square&labelColor=313244" alt="No daemon code">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-89b4fa?style=flat-square&labelColor=313244" alt="MIT license"></a>
 </p>
 
 <a href="#install">Install</a> ·
@@ -164,4 +165,4 @@ Keep installation instructions in this README.
 
 Unofficial port of [Catppuccin](https://github.com/catppuccin/catppuccin) for
 [Paseo](https://paseo.sh). Palette colors © the Catppuccin contributors. Not affiliated with or
-endorsed by either project.
+endorsed by either project. [MIT licensed](LICENSE).

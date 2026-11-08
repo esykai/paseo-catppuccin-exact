@@ -12,6 +12,7 @@
     "url": "https://github.com/esykai/paseo-catppuccin-exact/issues"
   },
   "author": "Andrey Abramov (https://github.com/esykai)",
+  "license": "MIT",
   "files": [
     "paseo-plugin.json",
     "OVERVIEW.md",
