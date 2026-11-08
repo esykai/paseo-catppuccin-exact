@@ -9,7 +9,7 @@
 <p>
   <a href="#install"><img src="https://img.shields.io/badge/Paseo-%E2%89%A50.15.3-1e1e2e?style=flat-square&labelColor=313244" alt="Paseo 0.15.3 or newer"></a>
   <a href="https://github.com/catppuccin/catppuccin"><img src="https://img.shields.io/badge/Catppuccin-Mocha%20%2F%20Latte-cba6f7?style=flat-square&labelColor=313244" alt="Catppuccin Mocha and Latte"></a>
-  <img src="https://img.shields.io/badge/Daemon-code-none-a6e3a1?style=flat-square&labelColor=313244" alt="No daemon code">
+  <img src="https://img.shields.io/badge/Plugin-no%20daemon%20code-a6e3a1?style=flat-square&labelColor=313244" alt="No daemon code">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-89b4fa?style=flat-square&labelColor=313244" alt="MIT license"></a>
 </p>
 
@@ -71,11 +71,14 @@ Paseo `0.15.3` or newer reads the manifest directly.
 **1 · Install the plugin**
 
 ```sh
-# from GitHub (replace <owner> with the repository owner)
-paseo plugin add git:<owner>/paseo-catppuccin-exact
+# from GitHub
+paseo plugin add git:esykai/paseo-catppuccin-exact
 
 # or from a checkout
 paseo plugin install /absolute/path/to/paseo-catppuccin-exact
+
+# from the registry, once the listing is live
+paseo plugin add esykai/catppuccin-exact
 ```
 
 **2 · Pick the themes** in **Settings → Appearance**:
@@ -101,7 +104,10 @@ paseo plugin update catppuccin-exact
 paseo plugin remove catppuccin-exact
 ```
 
-The plugin is not in the registry yet; see [Publishing](#publishing).
+The plugin is submitted to the registry: issue
+[#2119](https://github.com/getpaseo/plugins/issues/2119), review
+[#2120](https://github.com/getpaseo/plugins/pull/2120). The registry install command works once
+the listing is approved.
 
 ## Palette
 
